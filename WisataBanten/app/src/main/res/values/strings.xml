@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Wisata Alam Banten</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="array_country">
+        <item>Gunung Krakatau</item>
+        <item>Kampung Baduy</item>
+        <item>Masjid Agung Banten</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Ciputih</item>
+        <item>Pantai Sambolo</item>
+        <item>Pantai Sawarna</item>
+        <item>Pulau Dua</item>
+        <item>Pulau Oar</item>
+        <item>Pulau Pamaitan</item>
+        <item>Pulau Sangiang</item>
+        <item>Rawa Dano</item>
+        <item>S.B Mata Air Citaman</item>
+        <item>Tanjung Lesung</item>
+        <item>Ujung Kulon</item>
+    </string-array>
+
+
+</resources>

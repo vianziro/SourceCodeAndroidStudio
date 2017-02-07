@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".WorkActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/layout_toolbar" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/a"
+                android:id="@+id/imageView2"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/b"
+                android:id="@+id/imageView3"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/c"
+                android:id="@+id/imageView4"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/d"
+                android:id="@+id/imageView5"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/e"
+                android:id="@+id/imageView6"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/f"
+                android:id="@+id/imageView7"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/g"
+                android:id="@+id/imageView8"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/h"
+                android:id="@+id/imageView9"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/i"
+                android:id="@+id/imageView10"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/j"
+                android:id="@+id/imageView11"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/l"
+                android:id="@+id/imageView13"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/m"
+                android:id="@+id/imageView14"
+                android:layout_height="200dip" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/n"
+                android:id="@+id/imageView15"
+                android:layout_height="200dip" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/layout_header"
+        app:menu="@menu/item_navigasi" />
+</android.support.v4.widget.DrawerLayout>

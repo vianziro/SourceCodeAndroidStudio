@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="IDENTITAS PESERTA"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="20px"
+    android:gravity="center_horizontal"
+    android:text="Masukkan Nama Anda"
+    />
+    <EditText
+    	android:id="@+id/txtNama"
+    	android:layout_width="200px" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center_horizontal"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="10px"
+    android:gravity="center_horizontal"
+    android:text="Masukkan Umur Anda"
+    />
+    <EditText
+    	android:id="@+id/txtUmur"
+    	android:layout_width="200px" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center_horizontal"
+    />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="30px"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    >
+ 	<Button
+    	android:id="@+id/btnMulai"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="Mulai"
+    />
+    <Button
+    	android:id="@+id/btnKembali"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="Kembali"
+    />       
+	</LinearLayout>
+</LinearLayout>

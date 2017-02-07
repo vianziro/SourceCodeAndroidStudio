@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Silakan pilih salah satu Test"
+    android:paddingBottom="20dp"
+    />
+    <Button
+    	android:id="@+id/btnSMAIPA"
+    	android:layout_width="125px" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center_horizontal"
+    	android:text="Soal IPA"
+    />
+	<Button
+		android:id="@+id/btnSMAIPS"
+		android:layout_width="125px"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="Soal IPS"
+		/>
+</LinearLayout>

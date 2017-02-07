@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fd1e1e416e9655142b93ebbca13dfd13aec684e">
+        <dex dex="/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/pre-dexed/debug/instant-run_48a19ed38af9698972735237291a76aeae7fa1fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c20a44963d085d0dba4f5247c5c3fc611b49262">
+        <dex dex="/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_dcc8f8d76372a5a8ac994358b398095a9db58987.jar" />
+    </item>
+
+</items>

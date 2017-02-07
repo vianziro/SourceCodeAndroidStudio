@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/Home"
+            android:checked="false"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/Work"
+            android:checked="false"
+            android:title="@string/work" />
+        <item
+            android:id="@+id/Client"
+            android:checked="false"
+            android:title="@string/client" />
+        <item
+            android:id="@+id/Price"
+            android:checked="false"
+            android:title="@string/price" />
+        <item
+            android:id="@+id/Histories"
+            android:checked="false"
+            android:title="@string/histories" />
+        <item
+            android:id="@+id/Contact"
+            android:checked="false"
+            android:title="@string/contact" />
+    </group>
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="@string/nav_about_app">
+        <menu>
+            <item
+                android:id="@+id/Developer"
+                android:checked="false"
+                android:title="@string/developer" />
+        </menu>
+    </item>
+</menu>

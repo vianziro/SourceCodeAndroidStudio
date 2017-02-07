@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Company Profile</string>
+    <string name="jdlvisi">Visi</string>
+    <string name="jdlmisi">Misi</string>
+    <string name="jdlhistory">History</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="phone">No. Telp</string>
+    <string name="message">Message</string>
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="client">Client</string>
+    <string name="price">Price</string>
+    <string name="histories">History</string>
+    <string name="contact">Contact</string>
+    <string name="nav_about_app">About App</string>
+    <string name="developer">Developer</string>
+
+    <string name="visi">Visi kami adalah menjadikan perusahaan besi baja ringan yang bermutu dan berkualitas, dengan berorientasi sesuai management mutu yang sesuai dengan standar internasional dan ketepatan waktu penyerahan barang pada pelanggan.</string>
+    <string name="misi">Misi kami adalah menjadi perusahaan yang terpercaya dalam menjalankan usaha di bidang steel structure, fabrikasi / erection dan bangunan perumahan, bangunan jalan, pabrik dan lain-lain.</string>
+    <string name="history">
+        PT. Wijaya Sinar Konstruksi yang awalnya bernama CV Wijaya Steel Construktion berdiri pada tahun 2004, sebagai perusahaan yang bergerak di bidang konstruksi baja yang berlokasi di Jl Raya Serang, Cikande – Serang Banten.
+        Sekarang kami sudah mempunyai tiga department supporting yakni marketing, finance dan administrasi dan operasional.
+        Saat ini, perusahaan di pimpin oleh Pardi Santoso.
+        PT Wijaya Sinar Konstruksi terus berkembang secara profesional dengan di dukung oleh karyawan bersertifikasi dan peralatan berteknologi tinggi sehingga menghasilkan produk-produk yang berkualitas.
+        Hal ini di buktikan dengan banyaknya customer kami dari beberapa perusahaan besar dan ter-nama seperti, PT SMU, PT RPK, PT MIDI UTAMA INDONESIA, SARI DAYA PLASINDO dan lain-lain.
+        Keunggulan tersebut diatas telah membuktikan bahwa produk kami telah dapat diterima di berbagai tempat dengan awareness sebagai produk yang berkwalitas.
+        PT Wijaya Sinar Konstruksi tetap berkomitmen untuk terus mengembangkan jasa pelayanan yang baik dan berkwalitas demi untuk mencapai kepuasan pelanggan.
+    </string>
+</resources>

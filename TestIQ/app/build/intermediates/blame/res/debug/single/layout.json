@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/res/merged/debug/layout/identitas.xml",
+        "source": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/src/main/res/layout/identitas.xml"
+    },
+    {
+        "merged": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/res/merged/debug/layout/soalsma.xml",
+        "source": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/src/main/res/layout/soalsma.xml"
+    },
+    {
+        "merged": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/suganda/Public/Workspace/Github/AndroIQTest/app/src/main/res/layout/main.xml"
+    }
+]

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/place"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="@dimen/icon_padding"
+                    android:src="@drawable/ic_place"/>
+
+                <TextView
+                    android:id="@+id/isiTextDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="IsiText"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Deskripsi : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/descLabelDetail" />
+
+            <TextView
+                android:id="@+id/rinciTxtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="IsiText"/>
+
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:text="Hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bHotel"
+                    android:onClick="goHotel"
+                    android:clickable="true"
+                    android:autoLink="web"
+                    android:cursorVisible="true"
+                    android:linksClickable="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ica_bed"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp" />
+
+                <ImageView
+                    android:text="Lokasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bLokasi"
+                    android:onClick="goLokasi"
+                    android:clickable="true"
+                    android:autoLink="web"
+                    android:cursorVisible="true"
+                    android:linksClickable="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ica_map"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageView
+                    android:id="@+id/bRestoran"
+                    android:text="Restoran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goRestoran"
+                    android:clickable="true"
+                    android:autoLink="web"
+                    android:cursorVisible="true"
+                    android:linksClickable="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ica_dinner"
+                    android:layout_marginRight="41dp"
+                    android:layout_marginEnd="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:text="Youtube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bYoutube"
+                    android:onClick="goYoutube"
+                    android:clickable="true"
+                    android:autoLink="web"
+                    android:layout_gravity="center"
+                    android:cursorVisible="true"
+                    android:linksClickable="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_youtube"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Copyright@ 2017 Dolog Brother .om"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
